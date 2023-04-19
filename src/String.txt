@@ -1,0 +1,9 @@
+
+
+* String is a class in Java which implements java.io.Serializable, Comparable<String>, CharSequence, Constable, ConstantDesc.
+* It is  a Final class, So once a string is set is can't be changed. In other words, String is immutable.
+* There are some fields in the string class such as byte[] value, byte coder, int hashcode and boolean etc.,
+* By  default the hashcode is set to 0.
+* When we create a string without any literals eg: String str;
+    - It sets the value and coder as "".value and "".coder respectively;
+    -

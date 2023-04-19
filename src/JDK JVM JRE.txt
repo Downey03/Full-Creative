@@ -1,0 +1,17 @@
+#JDK - Java Development Kit
+
+* It is Used to compile the code.
+* It converts the Java code into Byte code.
+    - Byte code is just a set of instructions for JVM.
+    - It lies between the low level language and high level language.
+    - Byte code is platform dependent.
+* Whenever we install JDK, JVM and JRE will be installed along with it.
+
+#JVM - Java Virtual Machine
+
+* JVM accepts the intermediate level language which are also called as ByteCode.
+* This is responsible to run the compiled Byte code.
+* JVM is platform dependent.
+* It holds the local variables and partial results.
+* When a method is invoked, a new frame is created. And for each thread creation, a new JVM stack is created.
+  The created frame will be destroyed when the method invocation completes.
